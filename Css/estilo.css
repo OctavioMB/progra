@@ -22,7 +22,6 @@ p{
    background-color: aquamarine;
    height: auto;
    width: 1000;
-
 }
 
 nav ul li{
@@ -31,6 +30,7 @@ nav ul li{
 
 nav a:hover{
     background-color: blue;
+    float: right;
 }
 
 nav a{
