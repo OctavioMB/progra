@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.message-header{
+    background-color: #A64DE6;
+    padding: 0,8% 5%;
+}
+
+.main-title , footer{
+    background-color: #4A44F2;
+}
+
+.main-title{
+    padding: 4% 2%;
+}
+
+.card{
+    width: 30vw;
+    background-color: burlywood;
+}
+
+.header-card{
+    background-image: url(../images/fondobat.png);
+    height: 15vw;
+}
+
+.second-header-card{
+    background-image: url(../images/harley.png);
+}
+
+.container-card{
+    padding: 10% 2%;
+}
+
+.card-title{
+    text-align: center;
+    margin: 5%;
+}
+
+.btn{
+    padding: 5%;
+    margin: 15%;
+}
