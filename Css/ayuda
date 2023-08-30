@@ -15,3 +15,11 @@ color adobe-> paleta de colores
     padding: 0;
 }
 lo hacemos para borrar la config default de las etiquetas
+
+display: flex -> Un cuadrado al lado del otro
+flex-direction -> elegis como es muestra
+flex-wrap -> se ajustan los cajone de acuerdo al tamaño de la pantalla
+flox-flow: combina las de arriba
+
+justified content -> ordena horizontalmente
+aling-items -> ordena verticalmente
