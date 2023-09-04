@@ -16,6 +16,9 @@ color adobe-> paleta de colores
 }
 lo hacemos para borrar la config default de las etiquetas
 
+border-radius: ... px
+darle curva a los bordes
+
 display: flex -> Un cuadrado al lado del otro
 flex-direction -> elegis como es muestra
 flex-wrap -> se ajustan los cajone de acuerdo al tamaño de la pantalla
@@ -23,3 +26,13 @@ flox-flow: combina las de arriba
 
 justified content -> ordena horizontalmente
 aling-items -> ordena verticalmente
+
+usar flexbox para hacerlo responsive
+
+medias-query
+@media screen and (max-widht){
+    nav, .row etc etc{}
+    flex-diretion: column;
+} tiene que tener un flex-direction arriba
+
+podemos usar widht: calc(una funcion ej(33% - 20px))

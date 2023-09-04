@@ -17,23 +17,20 @@
                 <a href="" class="menu">Home</a>
             </div>
             <div class="drop">
-                <a href="" class="menu">
-                    <label for="our-services">Nuestros servicios</label>
-                        <select name="our-services" id="our-services" disabled="disabled">
-                        <option value="Landing Pages">Landing Pages</option>
-                        <option value="Data Analysis">Data Analysis</option>
-                        </select>
-                </a>
+                <a href="" class="menu">Nuestros Servicios</a>
+                    <ul>
+                        <li>Landing Pages</li>
+                        <li>Data Analysis</li>
+                        <li>Meta Metrics</li>
+                        <li>Facebook and Google Ads</li>
+                    </ul>
+            </div> 
+            <div>
+                <a href="" class="menu">¿Quienes Somos?</a>
             </div>
-            
-            <ul>
-                <li>Landing Pages</li>
-                <li>Data Analysis</li>
-                <li>Meta Metrics</li>
-                <li>Facebook and Google Ads</li>
-            </ul>
-            <a href="" class="menu">¿Quienes Somos?</a>
-            <a href="" class="menu">¡Contactanos!</a>
+            <div>
+                <a href="" class="menu">¡Contactanos!</a>
+            </div>
         </nav>
     </div>
   </header>
@@ -83,56 +80,32 @@
     <section class="menu-sections">
         <div>
             <h1>No te quedes con dudas!</h1>
-            <p>
-                Escribinos
-            </p>
         </div>
-    </section>
-    <section>
-        <article>
-            <h1>Sale en bicicletas</h1>
-            <img src="images/bicicleta.webp" alt="Foto biciceta">
-        </article>
-    </section>
-    <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia quas molestiae quam minus nihil iste eum minima earum dolorum nesciunt, voluptatum, quo nulla pariatur similique vel dolorem repellat? Pariatur, magni?
-    </p>
-    <p class="parrafo">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, asperiores commodi inventore ad sequi recusandae alias rem officiis fugit consectetur, iste perspiciatis a. Illo consectetur temporibus delectus fuga doloribus quidem!
-    </p>
-    <p id="parrafo">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, eligendi
-    </p>
-    <section>
-        <article>
-            <h2>Ofertas</h2>
-            <div>
-                <img src="images/ruedas.webp" alt="Foto ruedas">
-                <h3>Rueda</h3>
-                <p>3000$</p>
-            </div>
-            <div>
-                <img src="images/ruedas.webp" alt="Foto ruedas">
-                <h3>Cascos</h3>
-                <p>2000$</p>
-            </div>
-            <div>
-                <img src="images/ruedas.webp" alt="Foto ruedas">
-                <h3>Cadenas</h3>
-                <p>4500$</p>
-            </div>
-        </article>
+        <div>
+            <fieldset><legend> Escribinos y te contactaremos</legend> 
+
+                <label for="name"></label>Ingrese su nombre <input type="text" name="name" required> <br>
+                <label for="apellido"></label>Ingrese su apellido <input type="text" name="apellido" required> <br>
+                <label for="Tel"></label>Escriba su Telefono<input type="text" name="Tel" maxlength="13" placeholder="Sin guiones ni espacios"> <br>
+                <label for="mail"></label> E-mail <input type="text" name="email" maxlength="20" placeholder="Ingresar mail" required> <br>
+                <label for="comentarios">Ingrese comentarios</label><br><textarea name="comentarios" id="" cols="30" rows="3"></textarea>   
+            </fieldset>
+        </div>
     </section>
   </main>
   <footer>
-    <nav class="menu">
+    <div>
+        <nav class="links">
+
+        </nav>
+    </div>
+    <div>
         <ul>
             <li><a href="https://ar.linkedin.com/company/mercadolibre">Trabaja con nosotros</a></li>
             <li><a href="https://ar.linkedin.com/company/mercadolibre">Politica de privacidad</a></li>
             <li><a href="https://ar.linkedin.com/company/mercadolibre">Terminos y condiciones</a></li>
         </ul>
-    </nav>
-
+    </div>
   </footer>  
 </body>
 </html>
