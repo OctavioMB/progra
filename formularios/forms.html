@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso a la UCEMA</title>
+</head>
+<body>
+    <form action="" method="">
+        <fieldset><legend>Solicitud de ingrese a la facultad</legend> 
+
+            <label for="DNI"></label>Escriba su DNI<input type="text" name="DNI" maxlength="8" placeholder="Sin puntos ni comas" required> <br>
+            <label for="name"></label>Ingrese su nombre <input type="text" name="name" required> <br>
+            <label for="apellido"></label>Ingrese su apellido <input type="text" name="apellido" required> <br>
+            <label for="fecha de nacimiento "></label> Indique su fecha de nacimiento: <input type="date" name="fecha de nacimiento">
+            <label for="Tel"></label>Escriba su Telefono<input type="text" name="Tel" maxlength="13" placeholder="Sin guiones ni espacios"> <br>
+            <label for="mail"></label> E-mail <input type="text" name="email" maxlength="20" placeholder="Ingresar mail" required> <br>
+
+        </fieldset>
+        
+        <fieldset>
+            <legend>De donde venis?</legend>
+            <legend>Indique su barrio </legend> <br>
+            <select name="barrio" id="">
+                <option value="belgrano"> Belgrano </option>
+                <option value="microcentro" selected> Microcentro</option>
+                <option value="otro lado"> Prov de Bs As o alrededores</option>
+            </select>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <label for="comentarios">Ingrese comentarios</label><br><textarea name="comentarios" id="" cols="30" rows="3"></textarea>
+        </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

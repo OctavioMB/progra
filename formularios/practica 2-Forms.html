@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 2</title>
+    <!-- buenas practicas de HTML, Comprobamos en validator.w3
+    Trabajamos con Formularios, Validaciones en html,
+    Hacemos un forms en nuestra pagina de ecommerce -->
+</head>
+
+<body>
+    <header>
+        <img src="https://statics.eleconomista.com.ar/2020/03/614e2f5f8c618.png" alt="logo">
+        <nav>
+            <ul>
+                <li><a href="https://www.mercadolibre.com.ar/">Ofertas</a></li>
+                <li><a href="https://www.mercadolibre.com.ar/">Destacados</a></li>
+                <li><a href="https://www.mercadolibre.com.ar/">Favoritos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div>
+                <h1>Gracias por Visitarnos, somos WEB PRO BOOST</h1>
+                <h3>Trabaja con nosotros</h3>
+                <p>Completa el formulario para postularte</p>
+            </div>
+            <div>
+                <form action="mailto:omarquez25@ucema.edu.ar" method="get">
+                    <fieldset><legend>Personal info</legend>
+                        <div>                        
+                            <label for="fullname">Ingrese su nombre y apellido </label>
+                            <input type="text" id="fullname" name="fullname" required> <br>
+                        </div>
+                        <div>
+                            <label for="mail">Complete este campo con su email </label>
+                            <input type="text" id="email" name="email" maxlength="20" placeholder="Ingresar mail" required> <br>
+                        </div> 
+                        <div>
+                            <label for="DNI">Escriba su DNI: </label>
+                            <input type="text" id="DNI" name="DNI" maxlength="8" placeholder="Sin puntos ni comas" required> <br>
+                        </div>
+                        
+                        <div>
+                            <label for="puesto">Indique a que puesto le gustaria aplicar:</label> 
+                            <select name="lenguaje" id="puesto" name="puesto">
+                                <option value="">Seleccione una opcion</option>
+                                <option value="Dev">Developer</option>
+                                <option value="PM">Product Manager</option>
+                                <option value="Trainee">Pasante</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="cv"> Adjunte su CV: </label>
+                            <input type="file" id="cv" name="cv"> <br>
+                        </div>
+                        <div>
+                            <label for="age">Ingrese su edad: </label>
+                            <input type="number" name="age" id="age" min="18" max="50" step="0.5">
+                        </div>
+                        <div>
+                            <p>Idiomas</p>
+                            <input type="checkbox" id="lang-esp" value="spanish" name="languagues">
+                            <label for="lang-esp">Español</label>
+
+                            <input type="checkbox" id="lang-eng" value="english" name="languagues">
+                            <label for="lang-eng">Ingles</label>
+
+                            <input type="checkbox" lang="lang-port" value="portugues" name="languagues">
+                            <label for="lang-port">Portugues</label>
+                        </div>
+                        <div>
+                            <label for="Tel" >Escriba su Telefono: </label>
+                            <input type="tel" id="Tel" name="Tel" maxlength="12" placeholder="Sin guiones ni espacios"> <br>
+                        </div>
+                        <div>
+                            <label for="linkedin">Linkedin: </label>
+                            <input type="text" id="linkedin" name="linkedin">
+                        </div>
+                        <div>
+                            <label for="cover-letter">Carta de presentacion: </label>
+                            <textarea name="cover-letter" id="cover-letter" cols="30" rows="10" 
+                            maxlength="3000" placeholder="Contanos por que queres trabajar en la empresa"></textarea>
+                        </div>
+                    </fieldset>
+                        
+                    <fieldset>
+                        <legend>Preferencias de trabajo</legend>
+                        <div>
+                            <p>Disponibilidad Horaria</p>
+                            <input type="radio" name="working-preference" id="morning">
+                            <label for="morning">Mañana</label>
+                            <input type="radio" name="working-preference" id="afternoon">
+                            <label for="afternoon">Tarde</label>
+                        </div>
+                        <div>
+                            <p>Forma de trabajo</p>
+                            <input type="radio" name="working-place" id="Remote">
+                            <label for="Remote">Virtual</label>
+                            <input type="radio" name="working-place" id="on-person">
+                            <label for="on-person">Presencial</label>
+                        </div>
+                        <div>
+                            <label for="start-date">Cuando estas disponible?</label>
+                            <input type="date" name="start-date" id="start-date">
+                        </div>
+                    </fieldset>
+                    
+                    <div>
+                        <button type="submit">Enviar</button>
+                    </div>
+                    
+                </form>
+            </div>
+        </section>
+    </main>
+
+        
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="https://ar.linkedin.com/company/mercadolibre">Trabaja con nosotros</a></li>
+                <li><a href="https://ar.linkedin.com/company/mercadolibre">Politica de privacidad</a></li>
+                <li><a href="https://ar.linkedin.com/company/mercadolibre">Terminos y condiciones</a></li>
+                <li><a href="telto:+541149694178">Telefono</a></li>
+            </ul>
+        </nav>
+    
+      </footer>
+</body>
+</html>

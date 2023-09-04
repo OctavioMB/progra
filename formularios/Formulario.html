@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+
+
+<body>
+    <!-- action determina que se hace con el form cuando lo mandas, en method puede ir post o get -->
+    <form action="index.html" method="get">
+        <fieldset><legend>Personal info</legend> 
+            <label for="mail"></label><input type="text" name="email" maxlength="20" placeholder="Ingresar mail" required> <br>
+            <!-- required es para q se complete si o si el campo -->
+            <label for="password"></label> Contraseña <input type="password" name="password"> <br>
+            <input type="checkbox" name="info"> Quiero recibir info <br>
+            <label for="fecha de nacimiento "></label> fecha de nac: <input type="date" name="fecha de nacimiento">
+    </fieldset>
+        
+        <fieldset>
+            <legend>Elegi</legend>
+            <label>
+                <input type="radio" name="sexo" value="Masc">Masculino
+            </label>
+            <label>
+                <input type="radio" name="sexo" value="Fem">Femenino
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Indique su lenguaje </legend> <br>
+            <select name="lenguaje" id="">
+                <option value="español">español</option>
+                <option value="ingles" selected>ingles</option>
+                <option value="frances">frances</option>
+            </select>
+        </fieldset>
+        <br>
+        seleccione archivo: <input type="file" name="archivo"> <br>
+        <input type="submit" value="Enviar">
+    </form> 
+
+</body>
+</html>
