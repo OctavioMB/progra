@@ -30,9 +30,9 @@ aling-items -> ordena verticalmente
 usar flexbox para hacerlo responsive
 
 medias-query
-@media screen and (max-widht){
+@media screen and (max-widht o max-widht: .. px){
     nav, .row etc etc{}
-    flex-diretion: column;
-} tiene que tener un flex-direction arriba
+    culaquier regla que queremos a partir de la condicion de arriba;
+} 
 
 podemos usar widht: calc(una funcion ej(33% - 20px))
